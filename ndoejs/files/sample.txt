@@ -1,0 +1,228 @@
+생활코딩
+
+Coding Everybody
+
+Opentutorials.org
+코스 전체목록
+도움말
+로그인
+후원
+WEBn
+
+DATABASEn
+
+언어
+
+클라이언트
+
+서버
+
+개발도구
+
+프로젝트 관리
+
+기타
+생활코딩 > WEBn > WEB2 - Node.js
+공동공부 (459명)
+커버 페이지
+토픽 목록
+수업의 목적
+Node.js - 설치
+Node.js 공부방법
+Node.js - 웹서버 만들기
+JavaScript - Data type - Number
+JavaScript - Data type - String
+JavaScript - 변수
+JavaScript - Template Literal
+Node.js - URL로 입력된 값 사용하기
+App - 동적인 웹페이지 만들기
+Node.js - 파일 읽기
+App - 파일을 이용해 본문 구현
+JavaScript - Boolean
+JavaScript - 비교 연산자
+JavaScript - 제어문
+JavaScript - 조건문
+Node.js - 콘솔에서의 입력값
+App - Not found 오류 구현
+App - 홈페이지 구현
+JavaScript - 반복문
+JavaScript - 배열
+JavaScript - 배열과 반복문
+Node.js - 파일 목록 알아내기
+App - 글목록 출력하기
+JavaScript - 함수의 기본 문법
+JavaScript - 함수의 입력
+JavaScript - 함수의 출력
+App - 함수를 이용해서 정리 정돈하기
+수업의 정상
+Node.js - 동기와 비동기 그리고 콜백
+Node.js - 패키지 매니저와 PM2
+HTML - Form
+App - 글생성 UI 만들기
+App - POST 방식으로 전송된 데이터 받기
+App - 파일생성과 리다이렉션
+App - 글수정 - 수정 링크 생성
+App - 글수정 - 수정할 정보 전송
+App - 글수정 - 수정된 내용 저장
+App - 글삭제 - 삭제버튼 구현
+App - 글삭제 기능 완성
+JavaScript - 객체의 형식
+JavaScript - 객체의 반복
+JavaScript - 객체 - 값으로서 함수
+JavaScript - 객체 - 데이터와 값을 담는 그릇으로서 객체
+App -객체를 이용해서 템플릿 기능 정리 정돈하기
+Node.js - 모듈의 형식
+App 제작 - 모듈의 활용
+App - 입력 정보에 대한 보안
+App - 출력정보에 대한 보안
+API
+수업을 마치며
+보충수업 - PM2 사용법
+생산자
+
+egoing
+토픽 2883  /  봤어요 319
+Node.js - 파일 읽기
+2018-05-31 00:34:30
+수업소개
+Node.js에서 파일을 읽는 방법을 알려드립니다.
+
+
+
+
+
+
+
+강의
+새창으로 열기
+
+
+
+
+
+
+소스코드
+readfile.js
+
+1
+2
+3
+4
+var fs = require('fs');
+fs.readFile('sample.txt', 'utf8', function(err, data){
+  console.log(data);
+});
+
+
+봤어요 (322명)
+이전다음
+
+
+허공3개월 전
+190510 감사합니다.
+
+이루3개월 전
+완료
+
+위준우3개월 전
+완료
+
+현호3개월 전
+완료
+
+통신 MDP 좋아 ^_^3개월 전
+완료 ^___________________^
+
+자유로움4개월 전
+완료
+
+supernet4개월 전
+완료
+
+phasor5개월 전
+fileread.js 에서 console.log(data)로 sample.txt 를 커맨드창에 띄운겁니다.
+대화보기
+
+leesj020925@naver.com5개월 전
+콘솔창에서
+>node fileread.js 라고 입력하셨는데 sample.txt 메모장이 나온건가요?
+대화보기
+
+콘칩5개월 전
+cmd 창에서 실행하면
+자꾸 메모장이 켜지는 이유가 뭘까요 ㅠ
+
+도토리묵5개월 전
+완료
+
+호두5개월 전
+감사합니다.
+
+지미츄6개월 전
+완료 감사해요!!
+
+권문수6개월 전
+구글형님의 힘은 위대하군요..
+이고잉님의 수업은 핵심이 바로 정보검색이 아닐까합니다 ㅎ
+무언가 샘플만 알려주고 나머지 정말로 자신이 필요한것은 구글에서 찾아내는 것이 정말로 힘이 아닐까하네요..
+
+나마코엘6개월 전
+후. 파일 읽었다.
+
+YM6개월 전
+재밌네요!
+
+컹스7개월 전
+코드에 오류가 있어서 작동이 안된거구만..
+
+컹스7개월 전
+왜난 보고도 따라가지 못하는 것인가..
+
+소금돌8개월 전
+이해되지 않는 부분이 많지만... 익숙해지려고 봅니다
+
+Yeabbi8개월 전
+완료
+
+karen9개월 전
+카렌 에델 웅 완료
+
+jo_onc9개월 전
+공감!
+대화보기
+
+고스트프리10개월 전
+어려워지기 시작하네요.
+
+치킨10개월 전
+대박신기
+
+Gimme_Gsuit1년 전
+너무 재미있네요...언능 Nodejs 다듣고 싶네요 ㅎㅎ
+
+최성흠1년 전
+계속 듣다보니 ${ }를 삽입하기 위해서는 grave accent가 필요하네요
+대화보기
+
+최성흠1년 전
+fs.readFile(`data/${queryData.id}' ... 이 부분에서 grave accent로 해야 정보를 읽을 수 있는 이유가 무엇인가요??
+따옴표로 작성했는데 못읽어오고 꼭 grave accent로 해야하는건지, 이전 강의에서는 따옴표로 감싸도 됐던 것같은데 여기서는 안되는 이유를 모르겠습니다.
+혹시 제가 제대로 못들은 것이라면 죄송합니다.
+강의 감사합니다 너무 잘 듣고 있어요ㅎㅎ
+
+moon1년 전
+감사합니다.
+
+Seo Yun Seok Tudoistube1년 전
+fs 모듈 잘 배워서, 웹크롤링에도 써먹고 싶네요.
+생활코딩에 리눅스강좌도 봐야 하고... 할게 넘 많네요.
+나만의 서비스를 하기에 공부만 하다가 아이디어를 서비스할 타이밍을 놓치는거 같지만,
+정상이 얼마 안남은거 같지만, 어느 정도 시점부터 같이 할 수 있는 사람을 찾아야 할지
+생각을 하게 되네요.
+감사합니다^^
+
+Jinuine1년 전
+nodejs로 서버를 생성후에 URL에 "http://localhost:8000/?11,22,33,44"를 입력했을경우 11,22,33,44의 합을 계산하는것 까지 해보았는데 위 숫자를 텍스트 파일에 넣어서, nodejs 커맨드가 아닌.. 브라우저 상에서 파일을 선택 (URL에 파일 경로를 넣거나 <input type="file" />같은 형식으로 읽은후 처리하는게 가능한가요?
+
+박요한1년 전
+이 바닥? 의 75% 를 배울 수 있는 강의군요. :)모바일 버전
